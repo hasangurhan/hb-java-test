@@ -1,0 +1,109 @@
+
+
+Bug Report 
+====================
+
+Bug ID: 1
+
+Bug Name: Console error
+Summary:  09.07.2020
+
+Submit Date:           
+Reporter: Hasan Gürhan
+
+Platform: Mac bilgisayar                 
+Operating System: Macos
+Browser:  Chrome 
+                 
+URL: https://www.hepsiburada.com/siparislerim/detay/{product_id}
+
+
+Description
+===========
+
+TypeError: Cannot read property 'Orders' of undefined gelmekte console'a
+
+Steps to reproduce
+------------------
+- Hepsiburada sitesine login ol 
+- Rastgele bir ürün seç
+- Seçilen ürünü sepete ekle
+- Havale seçeceği ile siparişi tamamla.
+- Sipariş detay sayfasından "Siparişi İptal Et" butonuna bas
+- İptal talebini başarıyla oluşturduktan sonra popupı kapattığımızda console a hata düşecektir
+
+Expected result
+---------------
+
+Console da hata olmaması
+
+Actual result
+-------------
+
+Console a hata basmamız 
+
+Screenshot
+----------
+
+https://prnt.sc/texvoa
+
+
+Notes
+-----
+
+
+////////////////////////////////////////////////////////////////////////////////////
+
+
+Bug Report 
+====================
+
+Bug ID: 2
+
+Bug Name: Dropdown Item eksikliği 
+Summary:  09.07.2020
+
+Submit Date:           
+Reporter: Hasan Gürhan
+
+Platform: Mac bilgisayar                 
+Operating System: Macos
+Browser:  Chrome 
+                 
+URL: https://www.hepsiburada.com/siparislerim/detay/171741280
+
+
+Description
+===========
+ 
+
+
+Steps to reproduce
+------------------
+- Hepsiburada sitesine login ol 
+- Rastgele bir ürün seç
+- Seçilen ürünü sepete ekle
+- Havale seçeceği ile siparişi tamamla.
+- Sipariş detay sayfasından "Siparişi İptal Et" butonuna bas
+- İptal talebi oluşturulan popupta karsımıza gelen iptal nedeni dropdownunda item list eksik
+
+Expected result
+---------------
+
+9 item list gelmesi 
+
+Actual result
+-------------
+
+9 item listten 3 tanesinin gözükmesi
+
+Screenshot
+----------
+
+https://prnt.sc/texizr
+
+
+Notes
+-----
+
+Burada bug var mı bilmiyorum ama 9 tane dropdown itemstan bir istatistik tutuyor olabilirsiniz ne yüzden en çok iptal ediliyor diye. O yüzden 3 tane olması bana bir bug gibi geldi.

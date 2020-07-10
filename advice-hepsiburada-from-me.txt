@@ -1,0 +1,7 @@
+Bonus Soru
+Öneri
+“Keşke şu özellik hepsiburada’da olsaydı” dediğiniz veya var olan özelliklerde iyileştirme
+ihtiyacı gördüğünüz bir nokta ile ilgili fikirlerinizi belirtiniz.
+
+
+- Aktif hepsiburada kullanıcısı olarak bence hepsiburadanın hepsiexpress in üzerinde baya durması gerektiğini düşünüyorum. Kargo takibi çok zayıf ve insanlar kargo yüzünden ürünlere ve siteye çok sitemde bulunuyorlar. Bence anlık olarak herkes kargosunun yerini görmeli ve kargo yoldaysa anlık konumunu alarak takip edebilmeli. Ve kargo gelmeden kullanıcının istediği bir saatte hatırlatılması gerekiyor. "Gelmeden 30 dk önce ara" seçeceği gibi. 

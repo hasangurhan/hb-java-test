@@ -1,0 +1,185 @@
+
+
+Test Cases
+====================
+
+- Test Case No: 1
+- Priority : 1
+- Test Name: TestDogFoodPageSmokeTest
+- Test Steps: 
+
+1. Hepsiburada sitesine giriş yap
+2. Navigation Bardan "Süpermarket, Pet shop" kategorisinden "Köpek maması" sayfasına git
+3. Sayfada ki tüm elementlerin doğru geldiğini kontrol et.
+
+- Expected Result: Tüm sayfadaki dinamik elementlerin düzgün çalıştığından emin olunmalı.
+- Status: Undone
+
+====================
+
+- Test Case No: 2
+- Priority 2
+- Test Name: TestCheckFoodPageBrand
+- Test Steps: 
+
+1. Hepsiburada sitesine giriş yap
+2. Navigation Bardan "Süpermarket, Pet shop" kategorisinden "Köpek maması" sayfasına git
+3. Sayfada ki tüm elementlerin doğru geldiğini kontrol et.
+4. Markalar filtresinden bir marka seç ve ürünleri tekrar listele
+5. Ürünlerin adlarını list olarak al ve seçtiğin marka ürün adlarının içinde geliyor mu diye kontrol et.
+
+- Expected Result: Seçilen markanın ürün adında geçiyor olması
+- Status: Undone
+
+
+====================
+- Test Case No: 3
+- Priority 2
+- Test Name: TestCheckFeedDogProductPrice
+- Test Step: 
+1. Hepsiburada sitesine giriş yap
+2. Navigation Bardan "Süpermarket, Pet shop" kategorisinden "Köpek maması" sayfasına git
+3. Sayfada ki tüm elementlerin doğru geldiğini kontrol et.
+4. Bir fiyat aralığı seç
+5. Ürünlerin seçilen fiyat aralığında olup olmadığını kontrol et
+
+- Expected Result: Listelenen tüm ürünlerin istenilen fiyat aralığında gelmesi
+- Status: Undone
+
+
+====================
+
+- Test Case No: 4
+- Priority 2
+- Test Name: TestCheckFeedDogProductRating
+- Test Steps: 
+1. Hepsiburada sitesine giriş yap
+2. Navigation Bardan "Süpermarket, Pet shop" kategorisinden "Köpek maması" sayfasına git
+3. Sayfada ki tüm elementlerin doğru geldiğini kontrol et.
+4. Bir ürün puanı seç
+5. Ürünlerin seçilen puan aralığında olup olmadığını kontrol et
+
+- Expected Result: Listelenen tüm ürünlerin seçilen puanlamada olması
+- Status: Durumu: Undone
+
+
+====================
+
+- Test Case No: 5
+- Priority 2
+- Test Name: TestCheckFeedDogProductWeight
+- Test Steps: 
+1. Hepsiburada sitesine giriş yap
+2. Navigation Bardan "Süpermarket, Pet shop" kategorisinden "Köpek maması" sayfasına git
+3. Sayfada ki tüm elementlerin doğru geldiğini kontrol et.
+4. Bir ürün kilogramı seç
+5. Ürünlerin seçilen kg aralığında olup olmadığını kontrol et.
+
+- Expected Result: Listede ki ürünlerin ürün adında seçilen kg olması
+- Status: Undone
+
+
+====================
+
+- Test Case No: 6
+- Priority 2
+- Test Name: TestCheckFeedDogProductSeller
+- Test Steps: 
+1. Hepsiburada sitesine giriş yap
+2. Navigation Bardan "Süpermarket, Pet shop" kategorisinden "Köpek maması" sayfasına git
+3. Sayfada ki tüm elementlerin doğru geldiğini kontrol et.
+4. Rastgele Bir satıcı seç
+5. Listelenen herhangi bir ürünün detay sayfasına gidip satıcı kısmının doğru gelip gelmediğini kontrol et. 
+
+- Expected Result: Satıcı filtrelendikten sonra ürün detayda seçilen satıcı olması 
+- Status: Undone
+
+====================
+
+
+- Test Case No: 7
+- Priority 1
+- Test Name: TestCheckFeedDogBrokenImages
+- Test Steps: 
+1. Hepsiburada sitesine giriş yap
+2. Navigation Bardan "Süpermarket, Pet shop" kategorisinden "Köpek maması" sayfasına git
+3. Sayfada ki tüm elementlerin doğru geldiğini kontrol et.
+4. Sayfadaki tüm resimlerin kırık olup olmadığını kontrol et
+
+- Expected Result: İlgili kategoriye ait listelenen ürünler resimlerinde kırık bir resmin olmaması
+- Status: Undone
+
+====================
+
+- Test Case No: 8
+- Priority 4
+- Test Name: TestCheckFeedDogBackToTopTemplate
+- Test Steps: 
+1. Hepsiburada sitesine giriş yap
+2. Navigation Bardan "Süpermarket, Pet shop" kategorisinden "Köpek maması" sayfasına git
+3. Sayfada ki tüm elementlerin doğru geldiğini kontrol et.
+4. Sayfayı aşağı doğru scroll et, ve çıkan back to top butona tıkla
+5. Sayfanın yukarıya çıktığını kontrol et.(Image compare ile yapılabilir)
+
+- Expected Result: Back to top butonunun düzgün çalışması
+- Status: Undone
+
+====================
+
+- Test Case No: 9
+- Priority 1
+- Test Name: TestCheckFeedDogAddToCartButton
+- Test Steps: 
+1. Hepsiburada sitesine giriş yap
+2. Navigation Bardan "Süpermarket, Pet shop" kategorisinden "Köpek maması" sayfasına git
+3. Sayfada ki tüm elementlerin doğru geldiğini kontrol et.
+4. Listelenen ilk ürünün üzerine hover et.
+5. Sepete ekle butonunun geldiğini kontrol et ve tıkla 
+6. Daha sonra sepetim butonunda  "1" yazdığını assertle
+ 
+- Expected Result: Productun üzerine geldiğinde sepete ekle butonun çalışması 
+- Status: Undone
+
+====================
+
+- Test Case No: 10
+- Priority 3
+- Test Name: TestCheckFeedDogSortingMinValue
+- Test Steps: 
+1. Hepsiburada sitesine giriş yap
+2. Navigation Bardan "Süpermarket, Pet shop" kategorisinden "Köpek maması" sayfasına git
+3. Sayfada ki tüm elementlerin doğru geldiğini kontrol et.
+4. Ürünlerin yukarısındaki gri bardan "en düşük fiyat" butonu seç
+5. Listelenen ürün fiyatlarının düzgün sortlandığını kontrol et 
+ 
+- Expected Result: Ürünler fiyatı artan şekilde sıralanması gerekmekte
+- Status: Undone
+====================
+
+- Test Case No: 11
+- Priority 3
+- Test Name: TestCheckFeedDogSortingMaxValue
+- Test Steps: 
+1. Hepsiburada sitesine giriş yap
+2. Navigation Bardan "Süpermarket, Pet shop" kategorisinden "Köpek maması" sayfasına git
+3. Sayfada ki tüm elementlerin doğru geldiğini kontrol et.
+4. Ürünlerin yukarısındaki gri bardan "en yüksek fiyat" butonu seç
+5. Listelenen ürün fiyatlarının düzgün sortlandığını kontrol et 
+ 
+- Expected Result: Ürünler fiyatı azalan şekilde sıralanması gerekmekte
+- Status: Undone
+
+====================
+
+- Test Case No: 12
+- Priority 3
+- Test Name: TestCheckFeedDogMostCommentedProduct
+- Test Steps: 
+1. Hepsiburada sitesine giriş yap
+2. Navigation Bardan "Süpermarket, Pet shop" kategorisinden "Köpek maması" sayfasına git
+3. Sayfada ki tüm elementlerin doğru geldiğini kontrol et.
+4. Ürünlerin yukarısındaki gri bardan "en çok yorum alan" butonu seç
+5. Listelenen ürünlerde yorum sayılarınn düzgün sortlandığını kontrol et 
+ 
+- Expected Result: Ürünlein yorum sayısı azalan şekilde sıralanması gerekmekte
+- Status: Undone
